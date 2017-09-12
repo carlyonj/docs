@@ -69,7 +69,7 @@ Auth0 account = new Auth0(context);
 
 ## OIDC Conformant Mode
 
-It is strongly encouraged that this SDK be used in OIDC Conformant mode. When this mode is enabled, it will force the SDK to use Auth0's current authentication pipeline and will prevent it from reaching legacy endpoints. By default is `false`.
+It is strongly encouraged that this SDK be used in OIDC Conformant mode. When this mode is enabled, it will force the SDK to use Auth0's current authentication pipeline and will prevent it from reaching legacy endpoints. The default is `false`.
 
 ```java
 Auth0 account = new Auth0("${account.clientId}", "${account.namespace}");
